@@ -1,5 +1,5 @@
-#ifndef _PRINTF_H
-#define _PRINTF_H
+#ifndef _PRINTF_H_
+#define _PRINTF_H_
 
 #include <stdarg.h>
 #include <stdio.h>
@@ -35,7 +35,7 @@
 
 typedef struct parameters
 {
-unsigned int unsign			: 1;
+unsigned int unsign		: 1;
 unsigned int plus_flag		: 1;
 unsigned int space_flag		: 1;
 unsigned int hashtag_flag	: 1;
